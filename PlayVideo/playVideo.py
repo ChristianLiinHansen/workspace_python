@@ -16,8 +16,8 @@ while(cap.isOpened()):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     cv2.imshow('frame',gray)
-    
-    # Add some extra delay..
+
+    # Add some exqtra delay..
     cv2.waitKey(10)
     
     # if we push "q" the program ececutes
